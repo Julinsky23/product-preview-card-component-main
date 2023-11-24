@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@1,500;1,700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@1,500;1,700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: var(--cream);
+    display: flex;
+}
+
+
+.card{
+    max-width: 1020px;
+    height:600px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 250px auto;
+    border-radius: 10px;
+    overflow: hidden; /*überstehenden Inhalt verbergen*/
+    background-color: white;
+}
+
+.add-button{
+    font-size: 17px;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 55px;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin: 100px auto;
+    
+}
+
+aside{
+    padding:20px;
+}
+
+
+
+.paragraph{
+    color: var(--dark-grayish-blue);
+    
+}
+
+.headline{
+    color: var(--dark-grayish-blue);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.second_headline{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 100px auto;
+}
+
+article{
+    display: grid;
+}
+
+.button-area{
+}
+
+
