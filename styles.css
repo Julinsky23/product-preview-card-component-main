@@ -49,7 +49,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center; 
-    margin: 100px auto;
+    margin: 50px auto;
     
 }
 
@@ -57,11 +57,12 @@ aside{
     padding:20px;
 }
 
-
-
 .paragraph{
     color: var(--dark-grayish-blue);
-    
+    display: flex;
+    margin: 40px auto;
+    font-size: 19px;
+    line-height: 180%;
 }
 
 .headline{
@@ -69,14 +70,14 @@ aside{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: lighter;
-    padding-top: 20px;
+    padding-top: 21px;
     padding-bottom: 15px;
 }
 
 .second_headline{
     font-family: 'Fraunces', serif;
-    font-size: 40px;
-    
+    font-size: 42px;
+    line-height: 90%;
 }
 
 .price{
@@ -85,14 +86,16 @@ aside{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin: 100px auto;
+    margin: 20px auto;
+    justify-content: space-between;
 }
 
-article{
-    display: grid;
+.new_price{
+    color: var(--dark-cyan);
+    font-size: 40px;
 }
 
-.button-area{
+.old_price{
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
 }
-
-
