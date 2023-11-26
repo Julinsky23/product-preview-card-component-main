@@ -99,3 +99,7 @@ aside{
     color: var(--dark-grayish-blue);
     text-decoration: line-through;
 }
+
+@media screen{
+    
+}
